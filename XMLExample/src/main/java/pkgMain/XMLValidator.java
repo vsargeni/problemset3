@@ -73,7 +73,7 @@ public class XMLValidator {
 		}
 
 		public void fatalError(SAXParseException e) throws SAXException {
-			System.out.println("Fattal error: ");
+			System.out.println("Fatal error: ");
 			printInfo(e);
 			throw e;
 		}
